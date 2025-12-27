@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 import Beranda from "@/pages/Beranda";
-import ProfilDesa from "@/pages/ProfilDesa";
+import ProfilDesaModern from "@/pages/ProfilDesaModern";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -16,7 +16,7 @@ export default function App() {
       <main className={isHome ? "" : "pt-20"}>
         <Routes>
           <Route path="/" element={<Beranda />} />
-          <Route path="/profil-desa" element={<ProfilDesa />} />
+          <Route path="/profil-desa" element={<ProfilDesaModern />} />
         </Routes>
       </main>
 
