@@ -1,3 +1,4 @@
+import background from "@/assets/img/bg.png";
 import { useSlideIn } from "@/hooks/useSlideIn";
 import { Link } from "react-router-dom";
 
@@ -15,8 +16,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop')",
+          backgroundImage: `url(${background})`,
         }}
       />
 
@@ -24,7 +24,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto max-w-3xl px-6 text-center text-white">
+      <div className="relative z-10 mx-auto mt-35 max-w-3xl px-6 text-center text-white">
         <h1
           ref={title.ref}
           className={`text-2xl font-bold leading-tight md:text-5xl ${title.className}`}

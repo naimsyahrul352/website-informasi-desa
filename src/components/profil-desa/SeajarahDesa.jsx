@@ -1,4 +1,5 @@
 import { useSlideIn } from "@/hooks/useSlideIn";
+import sejarah from "@/assets/img/sejarah.png";
 
 export default function SejarahDesa() {
   const image = useSlideIn("up");
@@ -7,7 +8,6 @@ export default function SejarahDesa() {
   return (
     <section className="bg-white pt-6 pb-16">
       <div className="mx-auto max-w-5xl px-6 sm:px-10">
-
         {/* Judul */}
         <h2 className="mb-8 text-center text-xl font-bold text-slate-800 md:text-3xl">
           Sejarah Desa
@@ -20,7 +20,7 @@ export default function SejarahDesa() {
           style={image.style}
         >
           <img
-            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=2070&auto=format&fit=crop"
+            src={sejarah}
             alt="Foto Desa"
             className="h-[220px] w-full object-cover md:h-[360px]"
             loading="lazy"
@@ -35,10 +35,10 @@ export default function SejarahDesa() {
         >
           <p className="mb-4">
             Desa Sukamaju merupakan salah satu desa yang memiliki perjalanan
-            sejarah panjang dalam perkembangan pemerintahan dan kehidupan
-            sosial masyarakatnya. Berdasarkan catatan para sesepuh desa,
-            Sukamaju awalnya merupakan wilayah hutan dan lahan pertanian yang
-            mulai dibuka oleh para pendatang pada awal abad ke-19.
+            sejarah panjang dalam perkembangan pemerintahan dan kehidupan sosial
+            masyarakatnya. Berdasarkan catatan para sesepuh desa, Sukamaju
+            awalnya merupakan wilayah hutan dan lahan pertanian yang mulai
+            dibuka oleh para pendatang pada awal abad ke-19.
           </p>
 
           <p className="mb-4">

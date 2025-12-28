@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
+import logo from "@/assets/img/logo.png";
 
 const menus = [
   { name: "Beranda", path: "/" },
@@ -34,7 +35,7 @@ export default function Navbar() {
           {/* Logo */}
           <NavLink to="/" className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-white font-bold text-blue-900">
-              D
+              <img src={logo} alt="logo" />
             </div>
             <div className="leading-tight text-white">
               <p className="text-sm font-semibold">Desa Sukamaju</p>

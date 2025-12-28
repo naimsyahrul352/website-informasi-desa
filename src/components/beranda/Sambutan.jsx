@@ -1,4 +1,5 @@
 import { useSlideIn } from "@/hooks/useSlideIn";
+import kades from "@/assets/img/orang1.png";
 
 export default function Sambutan() {
   const title = useSlideIn("up");
@@ -30,7 +31,7 @@ export default function Sambutan() {
           >
             <div className="w-fit rounded-xl border border-slate-100 bg-white p-4 shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?q=80&w=600&auto=format&fit=crop"
+                src={kades}
                 alt="Kepala Desa"
                 className="h-64 w-52 rounded-lg object-cover sm:h-72 sm:w-56 md:h-80 md:w-64"
                 loading="lazy"

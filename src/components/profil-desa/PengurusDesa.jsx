@@ -1,30 +1,34 @@
 import { useSlideIn } from "@/hooks/useSlideIn";
+import orang1 from "@/assets/img/orang1.png";
+import orang2 from "@/assets/img/orang2.png";
+import orang3 from "@/assets/img/orang3.png";
+import orang4 from "@/assets/img/orang4.png";
 
 const pengurus = [
   {
     nama: "Ahmad Fauzi",
     jabatan: "Kepala Desa",
-    foto: "https://images.unsplash.com/photo-1603415526960-f7e0328d07d9?q=80&w=800&auto=format&fit=crop",
+    foto: orang1,
   },
   {
     nama: "Siti Aminah",
     jabatan: "Sekretaris Desa",
-    foto: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop",
+    foto: orang4,
   },
   {
     nama: "Budi Santoso",
     jabatan: "Kaur Pemerintahan",
-    foto: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2e?q=80&w=800&auto=format&fit=crop",
+    foto: orang2,
   },
   {
     nama: "Dewi Lestari",
     jabatan: "Kaur Keuangan",
-    foto: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=800&auto=format&fit=crop",
+    foto: orang4,
   },
   {
     nama: "Rizky Pratama",
     jabatan: "Kaur Perencanaan",
-    foto: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop",
+    foto: orang3,
   },
 ];
 

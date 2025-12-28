@@ -1,4 +1,5 @@
 import { useSlideIn } from "@/hooks/useSlideIn";
+import struktur from "@/assets/img/struktur.png";
 
 export default function StrukturDesa() {
   const image = useSlideIn("up");
@@ -18,7 +19,7 @@ export default function StrukturDesa() {
           style={image.style}
         >
           <img
-            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2070&auto=format&fit=crop"
+            src={struktur}
             alt="Struktur Pengurus Desa"
             className="w-full object-contain"
             loading="lazy"
