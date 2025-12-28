@@ -1,4 +1,5 @@
 import { useSlideIn } from "@/hooks/useSlideIn";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   const title = useSlideIn("up");
@@ -53,8 +54,8 @@ export default function Hero() {
           className={`mt-8 ${button.className}`}
           style={button.style}
         >
-          <a
-            href="#layanan"
+          <Link
+            to="/layanan"
             className="group relative inline-block overflow-hidden rounded-md bg-blue-600 px-8 py-3 text-sm font-semibold text-white shadow-lg"
           >
             {/* Glass shine */}
@@ -64,7 +65,7 @@ export default function Hero() {
               <i className="bi bi-grid"></i>
               Layanan
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

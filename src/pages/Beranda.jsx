@@ -13,8 +13,8 @@ export default function App() {
       <Sambutan />
       <Statistik />
       <BeritaTerbaru />
-      <PotensiDesa />
-      <UMKMDesa />
+      {/* <PotensiDesa />
+      <UMKMDesa /> */}
       <PetaDesa />
     </>
   );

@@ -1,12 +1,16 @@
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigationType } from "react-router-dom";
 
 export default function ScrollToTop() {
   const { pathname } = useLocation();
+  const navigationType = useNavigationType(); // "POP" | "PUSH" | "REPLACE"
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+    // hanya scroll ke atas ketika navigasi PUSH atau REPLACE
+    if (navigationType === "PUSH" || navigationType === "REPLACE") {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname, navigationType]);
 
   return null;
 }
