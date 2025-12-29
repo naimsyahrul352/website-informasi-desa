@@ -8,7 +8,7 @@ export default function PetaDesa() {
             Peta Lokasi Desa
           </h2>
           <p className="mt-2 text-xs text-slate-500 sm:text-sm">
-            Lokasi Desa Sukamaju, Kecamatan Kabor, Kabupaten Bojonegoro
+            Lokasi Desa Modern, Kecamatan Kanor, Kabupaten Bojonegoro
           </p>
           <div className="mx-auto mt-4 h-1 w-14 rounded-full bg-blue-600" />
         </div>
@@ -17,7 +17,7 @@ export default function PetaDesa() {
         <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <iframe
             title="Peta Lokasi Desa"
-            src="https://www.google.com/maps?q=Bojonegoro,Jawa%20Timur&output=embed"
+            src="https://www.google.com/maps?q=Kedungprimpen,Jawa%20Timur&output=embed"
             className="h-[280px] w-full sm:h-[360px] md:h-[420px]"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

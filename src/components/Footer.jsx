@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "@/assets/img/logo-desa.png";
 
 function Accordion({ title, children }) {
   const [open, setOpen] = useState(false);
@@ -38,18 +39,18 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-white font-bold text-blue-900">
-                D
+                <img src={logo} alt="logo" />
               </div>
               <div>
                 <p className="text-base font-semibold text-white">
-                  Desa Sukamaju
+                  Desa Modern
                 </p>
-                <p className="text-sm text-blue-200">Kecamatan Kabor</p>
+                <p className="text-sm text-blue-200">Kecamatan Kanor</p>
               </div>
             </div>
 
             <p className="mt-4 hidden text-sm leading-relaxed text-blue-200 md:block">
-              Website resmi Desa Sukamaju sebagai media informasi dan pelayanan
+              Website resmi Desa Modern sebagai media informasi dan pelayanan
               masyarakat.
             </p>
           </div>
@@ -91,7 +92,7 @@ export default function Footer() {
               </li>
               <li className="flex gap-3">
                 <i className="bi bi-geo-alt-fill mt-1" />
-                Jl. Raya Desa Sukamaju, Kabor
+                Jl. Raya Desa Modern, Kanor
               </li>
             </ul>
           </Accordion>
@@ -115,7 +116,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="border-t border-blue-800 py-4 text-center text-xs text-blue-200">
-        © 2025 Muhammad Syahrul Naim
+        © 2025 | Muhammad Syahrul Naim
       </div>
     </footer>
   );

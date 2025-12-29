@@ -3,7 +3,7 @@ export const umkmData = [
     id: 1,
     nama: "UMKM Kripik Singkong Makmur",
     alamat: "Dusun Krajan, Desa Modern",
-    gambar: "https://images.unsplash.com/photo-1585238342028-4f2d5c3f2b5c",
+    gambar: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
     deskripsi: `
     UMKM rumahan yang memproduksi kripik singkong
     dengan berbagai varian rasa.
@@ -18,7 +18,7 @@ export const umkmData = [
     id: 2,
     nama: "UMKM Batik Tulis Desa",
     alamat: "Dusun Selatan, Desa Modern",
-    gambar: "https://images.unsplash.com/photo-1618354691249-187b70f79a68",
+    gambar: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
     deskripsi: `
     UMKM batik tulis khas desa dengan motif tradisional
     yang dikerjakan secara handmade.

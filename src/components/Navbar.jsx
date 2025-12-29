@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "@/assets/img/logo.png";
+import logo from "@/assets/img/logo-desa.png";
 
 const menus = [
   { name: "Beranda", path: "/" },
@@ -38,8 +38,8 @@ export default function Navbar() {
               <img src={logo} alt="logo" />
             </div>
             <div className="leading-tight text-white">
-              <p className="text-sm font-semibold">Desa Sukamaju</p>
-              <p className="text-xs text-blue-200">Kecamatan Kabor</p>
+              <p className="text-sm font-semibold">Desa Modern</p>
+              <p className="text-xs text-blue-200">Kecamatan Kanor</p>
             </div>
           </NavLink>
 
